@@ -1,0 +1,13 @@
+diff --git a/board/freescale/mx6ul_14x14_evk/mx6ul_14x14_evk.c b/board/freescale/mx6ul_14x14_evk/mx6ul_14x14_evk.c
+index 6a43337..64fa173 100644
+--- a/board/freescale/mx6ul_14x14_evk/mx6ul_14x14_evk.c
++++ b/board/freescale/mx6ul_14x14_evk/mx6ul_14x14_evk.c
+@@ -351,7 +351,7 @@ void ldo_mode_set(int ldo_bypass)
+ 
+ int dram_init(void)
+ {
+-	gd->ram_size = imx_ddr_size();
++	gd->ram_size = imx_ddr_size()
+ 
+ 	return 0;
+ }
